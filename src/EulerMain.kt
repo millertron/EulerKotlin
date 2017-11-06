@@ -8,5 +8,4 @@ fun main(args: Array<String>) {
             else -> print("Option unavailable")
         }
     }
-    print(multiplesOfThree())
 }
