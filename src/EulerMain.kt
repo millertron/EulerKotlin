@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
     with(Scanner(System.`in`)) {
         when(nextInt()){
             1 -> print(multiplesOfThree())
+            6 -> print(sumSquareDifference())
             else -> print("Option unavailable")
         }
     }
